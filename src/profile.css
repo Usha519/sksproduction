@@ -1,0 +1,207 @@
+/* profile.css */
+
+/* .tiles-container {
+    display: flex;
+    justify-content: space-between;
+  } */
+
+/* .tile {
+    cursor: pointer;
+    padding: 10px;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+  } */
+
+/* .tile-column {
+    flex: 1;
+    margin-right: 20px; 
+  }
+   */
+   .imgs {
+    width: 200px;
+    height: auto;
+    margin-top: 140px;
+    filter: drop-shadow(10px 5px 3px #716d6d);
+  }
+  
+  .logo {
+    width: 270px;
+    height: auto;
+    margin-top: 30px;
+    filter: drop-shadow(10px 5px 3px #888787);
+  }
+  .button {
+    margin-top: 150px;
+  }
+  .scroll {
+    width: auto;
+    height: 200px;
+    overflow: auto;
+  }
+  .space {
+    margin-right: 10px;
+  }
+  
+  .imgs1 {
+    width: 254px;
+    height: auto;
+    margin-top: 80px;
+    filter: drop-shadow(8px 4px 2px #525151);
+  }
+  /* Define a custom background color for elements with the class .bg-secondarys */
+  .bg-secondarys {
+    background-color: rgb(45, 45, 45); /* Dark color */
+  }
+  
+  /* Define a lighter background color for elements with the class .bg-secondarys */
+  .bg-secondarys.light {
+    background-color: rgb(150, 150, 150); /* Lighter shade of grey */
+  }
+  
+  .colm {
+    padding-left: 2px;
+  }
+  .imgs2 {
+    width: 100px;
+    height: auto;
+    margin-bottom: -200px;
+    filter: drop-shadow(5px 3px 1px #aeacac);
+  }
+  .coln {
+    padding-right: 2px;
+  }
+  .imgs4 {
+    width: 350px;
+    height: auto;
+    filter: drop-shadow(8px 4px 2px #aeacac);
+  }
+  .colt {
+    margin-top: 150px;
+  }
+  .imgs5 {
+    width: 228px;
+    height: auto;
+    filter: drop-shadow(8px 4px 2px #aeacac);
+  }
+  .imgs6 {
+    width: 150px;
+    margin-top: -90px;
+    height: auto;
+    filter: drop-shadow(8px 4px 2px #aeacac);
+  }
+  .scrollable-column {
+    height: 100vh;
+    overflow-y: auto;
+  }
+  
+  .fixed-column {
+    position: sticky;
+    top: 0;
+    height: 100vh;
+  }
+  
+  .mixed-color {
+    background: linear-gradient(
+      to right,
+      gray,
+      white
+    ); /* Define a gradient from black to gray */
+    mix-blend-mode: multiply; /* Blend mode to mix the colors */
+  }
+  
+  
+  
+  
+  
+  
+  
+  /*..........................................mobile response............................*/
+  
+  @media (max-width: 600px) {
+    .imgs5 {
+      width: 0;
+      height: auto;
+    }
+    .imgs6 {
+      width: 0px;
+  
+      height: auto;
+    }
+    .imgs4 {
+      width: 170px;
+      height: auto;
+      filter: drop-shadow(8px 4px 2px #aeacac);
+    }
+    .imgs1 {
+      width: 0px;
+      height: auto;
+    
+      
+  }
+  .imgs2 {
+    width: 0px;
+    height: auto;
+   
+  
+  
+  
+  }
+  .pg{
+  padding-left: 6px;
+  padding-right: 10px;
+  }
+  .mixed-color {
+   
+    mix-blend-mode: multiply;
+  }
+  
+  .fixed-column {
+    position: sticky;
+    top: 0;
+    height:0px;
+  
+  }
+  .scrollable-column{
+    position: sticky;
+  }
+  .imgs {
+    width: 150px;
+    height: auto;
+    margin-top: 140px;
+    filter: drop-shadow(10px 5px 3px #716d6d);
+  }
+  .table-responsive td,
+  .table-responsive th {
+    font-size: 0.85rem; /* Adjust the font size as needed */
+    font-weight: 500;
+    padding: 4px;
+  }
+  
+  }
+  @media (max-width: 900px) {
+    .imgs5 {
+      width: 0;
+      height: auto;
+    }
+    .imgs6 {
+      width: 0px;
+  
+      height: auto;
+    }
+   
+    .imgs1 {
+      width: 0px;
+      height: auto;
+    
+      
+  }
+  .imgs2 {
+    width: 0px;
+    height: auto;
+   
+  
+  
+  
+  }
+  
+  }

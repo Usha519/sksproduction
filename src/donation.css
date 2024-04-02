@@ -1,0 +1,99 @@
+.suggested-mobile-container {
+    position: absolute;
+    top: 100%; /* Position below the input field */
+    left: 0;
+    width: 100%;
+    max-height: 150px; /* Adjust the max height as needed */
+    overflow-y: auto;
+    border: 2px solid #ccc;
+    box-sizing: border-box;
+    background-color: #fff;
+    z-index: 1000; /* Ensure it appears above other elements */
+  }
+  
+  .suggested-mobile-item {
+    cursor: pointer;
+    padding: 4px;
+    font-size: 15px;
+  }
+  
+  /* ... (existing styles) */
+  
+  
+  
+  
+  
+  
+  
+  /*phone number */
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  /* Hide the spinners for number input */
+  input[type="number"]::-webkit-inner-spin-button,
+  input[type="number"]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+  
+  
+  
+  
+  .suggested-mobile {
+    font-size: auto;
+    width: 250px;
+    height: 350pxp;
+    
+    /*margin-bottom: 10px;*/
+  
+  }
+  /* Add this to your existing CSS styles or create a new stylesheet */
+  
+  .highlight-row {
+      background-color: #ffe8e8; /* Change this color as per your preference */
+      font-weight: bold;
+      /* Add any other styling you want for highlighted rows */
+    }
+    
+    /* Optional: To add a smooth transition effect */
+    .highlight-row:hover {
+      background-color: #ffc0c0; /* Change this color as per your preference */
+      transition: background-color 0.3s ease;
+    }
+    
+  
+  
+    .inputs {
+      border: 2px solid #090909;
+      width: 15em;
+      height: 2em;
+      padding-left: 0.8em;
+      outline: none;
+      overflow: hidden;
+      background-color: #Fff;
+      border-radius: 10px;
+      transition: all 0.5s;
+    }
+    
+    .inputs:hover,
+    .inputs:focus {
+      border: 2px solid #ee9b16;
+      box-shadow: 0px 0px 0px 7px rgba(233, 159, 63, 0.2);
+      background-color: white;
+    }
+    .s{
+      margin-right:10px;
+      width: 150px;
+      height: auto;
+    }
+    .l{
+      margin-left: 20px;
+    }
+    @media (max-width: 600px) {
+      .f{
+        padding-left: 5px;
+        padding-right: 5px;
+      }
+    }
+  
